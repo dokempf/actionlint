@@ -13,3 +13,10 @@
   types: ["yaml"]
   files: "^.github/workflows/"
   entry: rhysd/actionlint:1.6.24
+- id: actionlint-go
+  name: Lint GitHub Actions workflow files
+  description: Runs actionlint to lint GitHub Actions workflow files
+  language: golang
+  types: ["yaml"]
+  files: "^.github/workflows/"
+  entry: actionlint
